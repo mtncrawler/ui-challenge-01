@@ -1,0 +1,146 @@
+
+.row-cd {
+    width: 480px;
+    height: 250px;
+}
+
+.row-eh {
+    width:480px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color:blueviolet;
+    height: 75px;
+    width: 480px;
+}
+
+div.foot {
+    background-color: blue;
+    height: 80px;
+    width: 480px;
+}
+
+.sidenav {
+    background-color: aqua;
+    height: 150px;
+    width: 480px;
+}
+
+#c {
+    background-color: rosybrown;
+    flex: 1 1 auto;
+    height: 125px;
+    width: 480px;
+
+}
+
+#d {
+    background-color: goldenrod;
+    flex: 1 1 auto;
+    height: 125px;
+    width: 480px;
+
+}
+
+#e {
+    background-color: lawngreen;
+    display: inline-block;
+    height:250px;
+    width: 240px;
+}
+
+#f {
+    background-color: antiquewhite;
+    display: inline-block;
+    width: 240px;
+    height:250px;
+}
+
+#g {
+    background-color:firebrick;
+    display: inline-block;
+    height:250px;
+    width: 240px;
+}
+
+#h {
+    background-color: olive;
+    display: inline-block;
+    height:250px;
+    width: 240px;
+}
+
+/* Large screens */
+@media screen and (min-width: 768px) {
+
+    body {
+        max-width: 960px;
+    }
+
+    header      {
+        width: 960px; 
+        height: 100px;
+    }
+
+    div.sidenav {
+            float: left; 
+            height: 600px; 
+            width: 200px;
+    }
+
+    .row-cd {
+        height: 200px;
+        width: 760px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row-eh {
+        height: 250px;
+        width: 760px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #c       {
+        width: 380px; 
+        height: 200px; 
+        display: inline-block;
+    }
+
+    #d       {
+        width: 380px; 
+        height: 200px; 
+        display: inline-block;
+    }
+
+    #e       {
+        width: 190px; 
+        height: 250px;
+    }
+
+    #f       {
+        width: 190px; 
+        height: 250px;
+    }
+
+    #g       {
+        width: 190px; 
+        height: 250px;
+    }
+
+    #h       {
+        width: 190px; 
+        height: 250px;
+    }
+
+    div.foot    {
+        width: 760px; 
+        height: 150px; 
+        display: flex;
+    }
+}
